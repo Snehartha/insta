@@ -1,4 +1,4 @@
-const API_BASE = (import.meta?.env?.VITE_API_BASE || 'https://insta-profile-backend.onrender.com/') + '/api'
+const API_BASE = (import.meta?.env?.VITE_API_BASE || 'https://insta-profile-backend.onrender.com') + '/api'
 
 async function handle(res) {
   if (!res.ok) {
