@@ -20,8 +20,8 @@ This repository contains a FastAPI backend and a React (Vite) frontend that toge
 ### Install and Run
 ```bash
 # In a new terminal
-python3 -m venv .venv
-source .venv/bin/activate
+python -m venv .venv
+.venv/bin/activate.bat
 pip install -r backend/requirements.txt
 python backend/uvicorn_app.py
 ```
